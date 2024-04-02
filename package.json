@@ -1,0 +1,15 @@
+{
+  "name": "conciergecrvip",
+  "version": "1.0.0",
+  "description": "Landing page for Costa Rica Concierge VIP using html5, css3, bootstrap5.3.2, JQuery, JavaScript, sass/css, nodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.72.0"
+  }
+}
