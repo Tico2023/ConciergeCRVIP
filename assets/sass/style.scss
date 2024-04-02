@@ -1,6 +1,7 @@
 @use 'colors';
 @use 'navbar';
 @use 'slider';
+@use 'posts';
 @use 'footer';
 
 body {
@@ -45,3 +46,4 @@ section {
     background-color: colors.$main-color;
     color: colors.$background-color
 }
+
