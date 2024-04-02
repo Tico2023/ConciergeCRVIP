@@ -1,0 +1,9 @@
+@use 'colors';
+
+footer {
+    background-color: colors.$background-color;
+}
+
+footer #copyright {
+    background-color: colors.$main-color;
+}

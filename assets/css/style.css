@@ -1,0 +1,127 @@
+.top-nav {
+  background-color: #436850;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.top-nav p {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.top-nav span,
+.top-nav i {
+  vertical-align: middle;
+}
+
+.navbar {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.social-icons a {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.25);
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+
+.social-icons a:hover {
+  background-color: #fff;
+  color: #436850;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #092032;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #436850;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #436850;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.navbar-brand .dot {
+  color: #436850;
+}
+
+.btn {
+  padding: 8px 26px;
+}
+
+.btn-brand {
+  border-color: #436850;
+  background-color: #436850;
+  color: #fff;
+}
+
+.btn-brand:hover {
+  background-color: #436850;
+  border-color: #436850;
+  color: #fff;
+}
+
+footer {
+  background-color: #fff;
+}
+
+footer #copyright {
+  background-color: #436850;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  color: #516171;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6,
+.display-1, .display-2, .display-3, .display-4 {
+  font-weight: 700;
+  color: #092032;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #092032;
+  transition: all 0.4s ease;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #436850;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.modal #modalBtn {
+  background-color: #436850;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

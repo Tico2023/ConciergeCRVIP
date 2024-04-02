@@ -1,0 +1,46 @@
+@use 'colors';
+@use 'navbar';
+@use 'footer';
+
+body {
+    font-family: "Barlow", sans-serif;
+    color: colors.$body;
+    line-height: 1.7;
+}
+
+h1,h2,h3,h4,h5,h6,
+.display-1,.display-2,.display-3,.display-4 {
+    font-weight: 700;
+    color: colors.$dark;
+}
+
+.bg-cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: colors.$dark;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+
+a:hover {
+    color: colors.$main-color;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+// Modal Button
+.modal #modalBtn {
+    background-color: colors.$main-color;
+    color: colors.$background-color
+}
