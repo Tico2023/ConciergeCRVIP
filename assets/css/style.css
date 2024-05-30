@@ -128,11 +128,19 @@
 }
 
 .slide2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/home02.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/turistas.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.slide3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/luxuryhouse.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 .slide .display-3 {
   text-transform: uppercase;
